@@ -8,7 +8,7 @@ zip' [] _ = []
 zip' _ [] = []
 zip' (x:xs) (y:ys) = (x, y) : zip' xs ys
 
-unzip' :: [(a, b)] -> ([a], [b])
+--unzip' :: [(a, b)] -> ([a], [b])
 --unzip' l = ([x | (x,_) <- l], [y | (_,y) <- l])
 
 unzip' :: [(a, b)] -> ([a], [b])
